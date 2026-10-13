@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Figures"
+  short_description: "Editable paper diagrams, plots, and combined slide decks"
+  default_prompt: "Use $research-figures to explain this project's core contribution with a suitable visual arrangement, generate a dense ink sketch master, and reconstruct editable figures."
+policy:
+  allow_implicit_invocation: true
