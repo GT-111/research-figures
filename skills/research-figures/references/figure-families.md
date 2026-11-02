@@ -1,6 +1,6 @@
 # Art direction by figure family
 
-Read the sections matching the requested figures. This document owns composition and visual treatment per family. The exact palette/type and base geometry live in [palette-and-type.md](palette-and-type.md) and [shape-vocabulary.md](shape-vocabulary.md); numerical semantics live in [results.md](results.md). Every family uses a generated composition master followed by reconstruction. A numerical master proposes arrangement, never measurements.
+Read the sections matching the requested figures. This document owns composition and visual treatment per family. The exact palette/type and base geometry live in [palette-and-type.md](palette-and-type.md) and [shape-vocabulary.md](shape-vocabulary.md); numerical semantics live in [results.md](results.md). Every family starts with a generated composition master; reconstruct when editable or exact-data outputs are requested. A numerical master proposes arrangement, never measurements.
 
 ## Shared character across different families
 
@@ -10,13 +10,15 @@ Carry the same method color, marker and naming across the figure set. A curve ca
 
 Use slightly bowed, uneven contours around semantic groups and conceptual objects. A heading may have a short heavy underline or colored band. Use a second offset stroke selectively on a focal boundary. Outer frames are optional: a strong heading and repeated black-edged marks can carry the style without frames. When framing plots, enclose the whole group including tick labels and axis titles; do not trace the axes rectangle with a wavy line. Shared gutters and aligned axes matter more than decorative enclosure.
 
-## Teaser: capability plus evidence
+## Teaser: choose the paper argument
 
-Give one genuine scene, montage or morphology grouping the largest region. Link it to a compact representation of the contribution and a small evidence panel. The eye should find capability, mechanism and evidence in that order when that matches the argument. An asymmetric collage can use a broad scene strip above a compact mechanism and result pair; it need not resemble a framework figure.
+An **overview teaser** introduces the research argument: the data/task setting, the mismatch being addressed, a concrete core insight, an abbreviated method and the study scope. Give the insight the focal region; connect compact context, the shared mechanism and representative cases in one reading route. A worked correspondence or before/after representation can carry more meaning than a large physical portrait. This is a coarse overview, not a second detailed architecture. The framework later expands the computation and learning paths.
 
-Use strong resolved-accent labels or brackets to identify actual demonstrated capabilities. Keep scene silhouettes and contact regions visible. Use one short contribution phrase and a few concrete labels, rather than a paragraph of claims. A tiny quantitative panel still needs units, a readable baseline and cohort identity. A blank evidence slot is appropriate when measurements are pending; never promote an illustrative trend to the teaser's claimed gain.
+A **capability/evidence teaser** emphasizes what is demonstrated. Give genuine scenes, a synchronized sequence or morphology grouping the largest region, with a compact mechanism cue and measured evidence where it earns space. Capability, mechanism and evidence need not have equal area. A collage is useful when the demonstrated breadth itself supports the paper's claim.
 
-When an overview and teaser accompany the same method, give them different jobs. The teaser connects recognizable input/task diversity to one visual contribution cue; the framework explains the necessary computation and learning relations. Remove decoder internals, ABI labels and repeated training plumbing from the teaser. If qualified results are absent, frame it as a method/concept teaser with attributed source scenes and an explicit evidence-status note, rather than inventing a performance panel or an achieved capability claim.
+Choose between these jobs from the user's request and the paper's argument; neither is a universal template. Use a few short technical headings, readable carriers and regular ink contours. Keep decoder internals and repeated training plumbing for the method figure. Artwork has a scientific role: source context, correspondence example, shared operation, or actual evidence. Strong color or a decorative motion trail cannot establish any of these relationships.
+
+Use scope labels only for actual supported inputs/designs. A tiny quantitative panel still needs units, a readable comparator and cohort identity. With measurements pending, an overview can explain the proposed method and study questions without a results panel. Requested conceptual scenes are visibly schematic; real execution or gains require genuine evidence, following [assets-and-composition.md](assets-and-composition.md).
 
 ## Framework: overview with internal mechanisms
 

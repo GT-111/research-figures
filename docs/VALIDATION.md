@@ -28,3 +28,17 @@ Layout and master development used only the brief and skill; exporter repair sub
 Authored examples, actual previews and numeric redraw inputs are in the [evidence attachment](https://github.com/GT-111/research-figures/releases/download/v0.1.0/research-figures-evidence.zip). Original-paper files are deliberately excluded; source attribution remains in the comparison notes. Numerical examples distinguish a published table subset from synthetic fixtures.
 
 A clean-directory copy of the skill passed metadata and internal-reference checks with no scripts or machine-specific paths. The results redraw was rerun after replacing fixed font paths with system font discovery; known-value and artist-coordinate checks passed.
+
+## Contribution and deliverable routing revision — 2026-11-02
+
+A DexMorphTrack design trial exposed an explanation failure: generated hand portraits and decorative motion ribbons occupied the focal area while the shared representation/control claim remained in labels. The user also requested an overview teaser covering data, insight, compact method and study scope, then deferred editability. Earlier teaser guidance favored capability-plus-evidence collages, and several entry points still prescribed native reconstruction unconditionally.
+
+Before/after behavioral illustration: “make an attractive cross-hand teaser” could produce a large hand montage around a box named shared latent. The revised brief first names the relation to explain, such as corresponding motion content across different geometries, and reserves the focal area for matched carriers passing through one shared operator. It chooses an overview or capability/evidence teaser from the argument, shows one main method rather than unresolved ablation branches, and ends at inspected generated images when requested. This is a change to the design decision, not a fixed replacement layout.
+
+The study inspected original author figure pixels and their scientific roles:
+
+- [CaPtain project](https://waltstephen.github.io/captain/), teaser and method overview: compact strong panel headers, regular dark contours, concrete input/output carriers and a continuous execution/learning route. The teaser places a concrete episode alongside a structural comparison and measured results; the method expands the mechanism. Transfer the readable hierarchy and causal organization, not its API, model identities or numeric evidence.
+- [OHRA, v2](https://arxiv.org/html/2602.16712v2), Figs. 1, 2 and 6: corresponding original/canonical hand cases make the representation relation visible before downstream policy use. Transfer the worked correspondence, not the canonical robot replacement or grasp-synthesis pipeline.
+- [DexTrack, v1](https://arxiv.org/html/2502.09614v1), Figs. 1 and 2: a compact tracking loop introduces the task while matched reference/execution sequences establish what behavior to inspect; the detailed learning figure has a different job. Reference playback remains distinct from learned execution.
+
+The documentation routes and internal links were checked. This revision alone does not validate a new visual result: generated-only DMT trials and their inspected outcomes remain in the project's figure study, outside the reusable skill. No additional exporter or native-render trial is implied by this explanation/routing change.

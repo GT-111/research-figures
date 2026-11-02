@@ -4,15 +4,16 @@ Read for a new paper teaser, framework, mechanism or evidence board, and when a 
 
 ## Start with the reader's question
 
-Write one concrete question the figure answers and one sentence the reader should be able to explain after seeing it. A framework might explain how the new mechanism changes the path from input to output; a mechanism might explain which information an update consumes and what it changes; a teaser might connect a new capability to visible evidence. The name of a model or a list of components is not that explanation.
+Write one concrete question the figure answers and one sentence the reader should be able to explain after seeing it. A framework might explain how the new mechanism changes the path from input to output; a mechanism might explain which information an update consumes and what it changes; a teaser might introduce the full research argument or connect a capability to visible evidence. The name of a model or a list of components is not that explanation.
 
-Extract the contribution from project text and implementation before looking for a layout. Identify the limiting behavior, the actual change, the intermediate operation causing the change, and the output/evidence it affects. Distinguish a new mechanism from standard infrastructure. Do not declare novelty based on a visually prominent module. If the scientific change cannot be named, narrow the figure's job rather than decorating the whole repository.
+Extract the contribution from project text and implementation before looking for a layout. Identify the limiting behavior, the actual change, the intermediate operation causing the change, and the output/evidence it affects. Distinguish a new mechanism from standard infrastructure. Do not declare novelty based on a visually prominent module. Pair the claim with one visible operation or worked example: corresponding landmarks, a shared operator reused by multiple cases, a changed geometric constraint, or a measured matched comparison. This pair determines the focal region before style terms enter the prompt. If the scientific change cannot be named, narrow the figure's job rather than decorating the whole repository.
 
 ## Figure job determines the explanation
 
 | Figure job | What it must let the reader understand | Content emphasis |
 |---|---|---|
-| Teaser | The capability/problem and its concrete consequence | Genuine representative scenes, a compact contribution cue and justified evidence |
+| Overview teaser | The research argument: setting, central insight, abbreviated method and study scope | Compact data/task context, a visible contribution example, one shared mechanism and supported scope |
+| Capability/evidence teaser | The capability/problem and its concrete consequence | Genuine representative scenes, a compact contribution cue and justified evidence |
 | Main framework | How the contribution fits the method and changes the input-to-output path | Essential interfaces, the focal mechanism and distinct execution/training lanes |
 | Mechanism detail | How the new operation works on its inputs | A worked representation/state/geometry example plus its actual transformation |
 | Training/adaptation | Where learning evidence comes from and which parameters/state change | Sampling/supervision, objective/update recipients and time/evidence boundaries |
@@ -20,7 +21,7 @@ Extract the contribution from project text and implementation before looking for
 | Failure/diagnostic | What observed behavior supports the proposed explanation | Matched cases/traces, actual event alignment and stated scope |
 | Scaling | Which independent variable changes the outcome | Actual exposure and controls, held-out evaluation and measured trend |
 
-Choose the figure job before considering application-specific examples. Optional [robotics-layouts.md](robotics-layouts.md) supplies worked patterns learned from robotics. Use a relevant pattern after identifying the actual relations; unfamiliar methods use the same general reasoning and can draw references from any appropriate domain. Several jobs usually require several figures rather than a single plate that tries to explain the whole repository.
+Choose the figure job before considering application-specific examples. Optional [robotics-layouts.md](robotics-layouts.md) supplies worked patterns learned from robotics. Use a relevant pattern after identifying the actual relations; unfamiliar methods use the same general reasoning and can draw references from any appropriate domain. An overview teaser may combine these roles coarsely when that serves the paper's argument; a method figure then expands the mechanism. A detailed plate should not attempt every job at once.
 
 ## Read relevant original figures for explanatory moves
 
@@ -60,7 +61,7 @@ Place the contribution-defining operation in the focal region. Keep enough input
 
 Use reader-facing role names before implementation symbols: “Motion reconstruction” or “Closed-loop controller,” with a compact symbol only if the caption needs it. A repository class name, decoder index or adapter ABI rarely explains an operation to a new reader. Keep exact dimensions, serializers, dispatch/bounds details and engine plumbing in notes unless that interface is the contribution. Show the unchanged supported component inventory there when the overview selects fewer examples.
 
-When several representations become compatible, expose the relationship that makes them compatible. Distinguish correspondence/alignment, reconstruction and control learning. Show the actual paired carriers or supported common frame, the alignment objective and its learning recipient in a compact training inset; matched colors or arrows converging into a box do not establish alignment. Resolve temporal support, geometric frame and semantic pairing from the project, rather than treating these different meanings of “alignment” as interchangeable. Preserve the continuous/discrete level at which the actual comparison occurs.
+When several representations become compatible, expose the relationship that makes them compatible. Distinguish correspondence/alignment, reconstruction and control learning. Show the actual paired carriers or supported common frame, the alignment objective and its learning recipient in a compact training inset. Use matched semantic landmarks or time-aligned examples when correspondence is the insight. Let repeated cases visibly cross the same encoder/core when weights are shared. Matched colors or arrows converging into a box do not establish alignment. Resolve temporal support, geometric frame and semantic pairing from the project, rather than treating these different meanings of “alignment” as interchangeable. Preserve the continuous/discrete level at which the actual comparison occurs.
 
 Give every visible object a job: physical entity, observation, representation, operation, stored state, condition, supervision, result or annotation. Select a faithful carrier: time-aligned frames for temporal evidence, regular cells for a mask, matrix/operator for an actual update, spatial relation for geometry, sequence bracket for a command chunk. Use real assets for physical identities. Generic neural nodes only indicate a learned map; they cannot explain an unknown mechanism.
 
@@ -88,6 +89,8 @@ Select visible relations by the reader question rather than by the number of dep
 These are layout decisions, not model assumptions. Use only the structures the project actually contains.
 
 ## Show structural alternatives as visual comparisons
+
+The main framework depicts the selected method. Competing parameterizations belong in an ablation/comparison figure unless that comparison is itself the figure's purpose. While selection is pending, use the accurate common operation at this level and leave its unresolved internals out; a fork would imply that both candidates operate together.
 
 When the reader must understand how modes, conditions or variants change computation, use aligned miniature diagrams with consistent carrier positions. Expose the changed input availability, connection, operation or output directly. For example, held-clean, excluded/noisy and generated variables need visually distinct carriers and an operation/route that shows what happens; a row of parameter settings makes the reader reconstruct that behavior mentally. A large shared mechanism can supply the detail once, while the small cases show only the meaningful differences. Label shared parameters where needed. Do not reproduce the whole implementation in every case.
 

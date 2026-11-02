@@ -4,13 +4,13 @@
 
 The project's method, implementation and evidence establish facts. The user's goal establishes emphasis and constraints. The installed style establishes typography, color and visual grammar. Named prior papers are visual references only when needed or requested. Start with the contribution, not a literature template.
 
-Write the brief before prompting: what changes relative to the baseline, what evidence supports it, which mechanism causes the change, and which paths are causal/training-only. Select the figure's main job: introduce a capability, explain a framework, expose a mechanism, compare outcomes, inspect scaling, or show qualitative evidence. A contribution should get the largest or most visually salient region; baseline plumbing should be visually subordinate.
+Write the brief before prompting: what changes relative to the baseline, what evidence supports it, which mechanism causes the change, and which paths are causal/training-only. Select the figure's main job: introduce the research argument, show a capability, explain a framework, expose a mechanism, compare outcomes, inspect scaling, or show qualitative evidence. Pair its main claim with the concrete operation/example the reader must see; the palette and sketch vocabulary express that relationship. A contribution should get the largest or most visually salient region; baseline plumbing should be visually subordinate.
 
 ## Master prompt construction
 
 Pass these concrete ingredients to image generation:
 
-- Canvas and figure role; one main scientific message; exact required labels.
+- Canvas and figure role; one main scientific message and its visible supporting operation/example; exact required labels.
 - Module/relationship list including inputs, outputs, feedback, freeze and stop-gradient meaning.
 - The selected composition: e.g. a broad top execution lane and two compact lower mechanism/training panels. Preserve an earlier accepted composition unless the user changes it.
 - Palette: the exact resolved profile, including natural body fills, stronger route/series colors, dark accents, warm canvas and ink contrast. Do not replace the selected profile with the generator's favorite bright primaries or cute pastel scheme.
@@ -18,14 +18,18 @@ Pass these concrete ingredients to image generation:
 - Shape grammar: slightly bowed sketch outlines, sturdy black edges, short dashes for boundaries, trapezoidal mappings, token strips, stacked temporal carriers, genuine physical assets.
 - Selected expressive effects: specify where offset ink shadows, secondary pen strokes, diagonal hatch accents, dark footer strips and dashed grouping boundaries belong. Match the requested intensity; do not turn all objects into uniformly clean flat cards. Preserve an accepted treatment instead of inventing extra effects everywhere.
 - Local density: small scientific mechanisms within the module rather than prose; reserve channels for arrows and feedback.
-- Actual supplied asset roles and exact places for missing assets/data. Missing physical inputs are empty reserved panels, not generated stand-ins.
+- Actual supplied asset roles, any explicitly schematic illustrations, and exact places for missing evidence. Follow [assets-and-composition.md](assets-and-composition.md) for genuine identities versus conceptual depictions; missing measured scenes/results stay absent or reserved.
 - Quantitative panels: source data and exact plot references when available. Generated plot geometry is composition only; final data is reconstructed numerically. No invented results.
 
 Use supplied reference images to condition visual appearance when appropriate; label their role in the prompt. Do not copy their science into a new method. Save the exact prompt, chosen master and factual correction notes in the output directory.
 
-Inspect generated quantitative regions for added error caps/bands, invented sample counts, unlabeled series, fabricated log spacing and altered values—even in an explicitly illustrative master. Remove unsupported statistics during reconstruction. Restore the exact data and a method legend/direct labels. A generic loss or target branch added by the generator also needs confirmation from the method brief; visual plausibility is not authority. Record scientific repairs as removed/redirected edges as well as revised labels. An output must emerge from the operation that produces it: when correcting a solver/scheduler/update path, remove any old shortcut from the predictor to the final output. A correct caption does not repair an incorrect native arrow.
+Inspect generated quantitative regions for added error caps/bands, invented sample counts, unlabeled series, fabricated log spacing and altered values—even in an explicitly illustrative master. Remove unsupported statistics before delivery. Exact-data outputs restore the actual data and a method legend/direct labels; a generated-only conceptual proposal omits unsupported numerical panels. A generic loss or target branch added by the generator also needs confirmation from the method brief; visual plausibility is not authority. Record scientific repairs as removed/redirected edges as well as revised labels. An output must emerge from the operation that produces it: when correcting a solver/scheduler/update path, remove any old shortcut from the predictor to the final output. A correct caption does not repair an incorrect arrow.
 
-A targeted generated edit can preserve the appearance while correcting a local dependency. If it repeats incorrect routes, write the corrected producer/consumer map before authoring and apply that topology in native reconstruction. Retain the useful composition and expressive layers; another full image generation is unnecessary merely to force exact wiring. The master establishes visual decisions, while the project brief and corrected relation map establish scientific dependencies. Inspect the native result to ensure the old erroneous edges were actually removed, rather than leaving both versions of the route.
+A targeted generated edit can preserve the appearance while correcting a local dependency. If it repeats incorrect routes, write the corrected producer/consumer map and simplify the proposal or revise the affected region. Apply that topology in native reconstruction when that deliverable is requested. Retain the useful composition and expressive layers. For an editable deliverable, another full image generation is unnecessary merely to force exact wiring. The master establishes visual decisions, while the project brief and corrected relation map establish scientific dependencies. Inspect the delivered result to ensure the old erroneous edges were actually removed, rather than leaving both versions of the route.
+
+## Generated-only delivery
+
+When the user requests image proposals or defers editability, deliver the inspected generated images and retain the exact prompt/brief. Native authoring, font-installation trials and native-render verification apply only to requested native outputs. Keep schematic labels visible on conceptual depictions, and state any remaining generation error; do not claim exact numerical plots, genuine hardware identities or editable semantics from the raster. This stage ends here unless the user requests reconstruction.
 
 ## Reconstruction map
 
@@ -51,7 +55,7 @@ If a specific effect cannot be represented natively, keep the semantic structure
 
 Keep one missing-input record in the project brief: slot identifier, intended role, exact required item, and practical form. Examples: task name + evaluation condition + one screenshot; robot model or chosen view; official logo URL/asset; CSV with training exposure, seed, success numerator/denominator and cohort. Avoid asking for material already accessible in the project. Keep working on independent regions.
 
-A blank results region means data is absent, not zero performance. A diagram can show a designed interface if its evidence status is stated; it cannot show a validated outcome without data. Leave clean whitespace or an unobtrusive native draft label; remove draft placeholders when inputs arrive.
+A blank results region means data is absent, not zero performance. A diagram can show a designed interface if its evidence status is stated; it cannot show a validated outcome without data. Leave clean whitespace or an unobtrusive draft label; remove draft placeholders when inputs arrive.
 
 ## Visual verification
 

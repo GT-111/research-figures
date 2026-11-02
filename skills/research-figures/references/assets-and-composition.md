@@ -8,6 +8,8 @@ Render physical entities from project-owned geometry or use genuine photographs/
 
 Use official project/repository media for benchmark or backend identities. Preserve aspect ratio and record provenance/license. If there is no published mark, use a native typographic name; do not invent a logo. A parent-company mark plus product text should be described as such. Native geometry is for mechanisms, not for approximating recognizable robot hardware. Existing screenshots, renders, photos and logos stay independent image objects.
 
+For a requested generated-only concept, a physical entity may instead be a clearly labeled **schematic illustration** that explains geometry or correspondence. It does not identify a specific robot/dataset scene or demonstrate execution. Preserve claimed identities with genuine assets; leave unavailable measured scenes/results blank or omit them. A paper-style schematic needs concise status labeling, not an evidence disclaimer inside every module.
+
 ## Source galleries and image-backed identities
 
 When input diversity or benchmark/task breadth matters, collect representative original media for each displayed source from its official page or repository before reducing the input area to a list of names. Favor a real scene/frame/render over a screenshot of its framework, result chart or website chrome. Retain the original media and record crop/frame time. A dataset with both human and robot views can occupy both scientifically valid roles; its project identity alone does not determine the input representation.
@@ -30,7 +32,7 @@ Choose a composition from the actual argument:
 
 - Repeated task columns: one task title; aligned success/throughput axes above; the corresponding task frame below. Put the shared method legend in a dedicated strip. Match cohorts and units, use consistent ranges for comparable metrics, and keep progress distinct from binary success.
 - Sequence plus trace: horizontally aligned frames with real timestamps; observed/reference trajectories or contact/error traces directly below on the same time support. Mark actual events with aligned guides.
-- Teaser plus evidence: larger real visual collage and one compact main metric/scaling panel. Use a short central claim only when it is backed by the displayed result. Avoid turning a teaser into a methods appendix.
+- Teaser plus evidence: larger real visual collage and one compact main metric/scaling panel. Use a short central claim only when it is backed by the displayed result. For an overview teaser without measured outcomes, use the distinct route in [figure-families.md](figure-families.md).
 - Failure analysis: paired success/failure frames with the same setup, a quantitative distribution or case matrix and a short failure category. Do not cherry-pick a qualitative comparison to imply a population effect.
 - Scaling board: top row shows actual data/embodiment/task diversity; bottom row shows data, model, compute or rollout scaling on accurate measured coordinates. Control variables and held-out cohorts belong to the caption.
 

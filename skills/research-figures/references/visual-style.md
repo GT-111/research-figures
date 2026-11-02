@@ -28,7 +28,7 @@ Translate observations into anonymous reusable design rules. Separate visibly ob
 
 ## Generate and reconstruct
 
-Use generation-and-reconstruction.md. The master is the designed visual composition, not an illustration asset pasted behind a few editable labels. Read its regions and reconstruct their hierarchy, spacing, color weight, typography and visual rhythm. Correct generated scientific errors from the brief. Leave missing assets/data blank with an explicit handoff.
+Use [generation-and-reconstruction.md](generation-and-reconstruction.md) for the requested stage; generated-only proposals stop before native reconstruction. The master is the designed visual composition, not an illustration asset pasted behind a few editable labels. When reconstructing, read its regions and preserve their hierarchy, spacing, color weight, typography and visual rhythm. Correct generated scientific errors from the brief. Leave missing assets/data blank with an explicit handoff.
 
 Match master-level composition before adding fine contour texture. Native files that merely contain matching colors and fonts but revert to a generic card grid do not reproduce the design. Use [native-style-reconstruction.md](native-style-reconstruction.md) to retain intentional shadows, dashes, hatching, depth and pen strokes. Only fine stochastic raster grain is routinely approximable; semantic modules, short labels and relationships remain native editable objects.
 

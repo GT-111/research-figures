@@ -4,7 +4,7 @@
 
 Name the message first. Identify the core contribution and its necessary relations, then source/reference inputs, state/history, modules, objectives, outputs and feedback where they actually occur. Associate important nodes and edges with project evidence in the brief. Keep future targets outside causal inputs. Distinguish a designed interface from a validated application.
 
-A teaser communicates the problem and contribution through examples and compact evidence. A framework communicates how interfaces fit. A mechanism figure exposes what is new with local tensor/geometry/network illustrations. Appendix figures resolve detail that would crowd the framework. These roles do not prescribe a model topology or fixed panel count.
+A teaser introduces either the research argument or a demonstrated capability; choose its scope using [figure-families.md](figure-families.md). A framework communicates how interfaces fit. A mechanism figure exposes what is new with local tensor/geometry/network illustrations. Appendix figures resolve detail that would crowd the framework. These roles do not prescribe a model topology or fixed panel count.
 
 ## Runtime authoring, no bundled exporter
 
